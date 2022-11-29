@@ -1,6 +1,7 @@
 #from stackvoerflow user codewizard [https://stackoverflow.com/questions/36918540/gitignore-all-folders-beginning-with-a-period]
 # ignore all . files and . folders
 .*
+*__pycache__
 
 # Dont ignore .gitignore (this file)
 # This is just for verbosity, you can leave it out if
