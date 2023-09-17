@@ -8,10 +8,10 @@ from src.p_log import Log
 from os.path import exists
 
 #---Window Initiation Start---#
-p_SCREEN_WIDTH = 500
+p_SCREEN_WIDTH = 500    
 p_SCREEN_HEIGHT = 250
 
-p_SCREEN_SCALAR = 1
+p_SCREEN_SCALAR = 3
 p_WINDOW_WIDTH = int(p_SCREEN_WIDTH * p_SCREEN_SCALAR)
 p_WINDOW_HEIGHT = int(p_SCREEN_HEIGHT * p_SCREEN_SCALAR)
 
@@ -27,7 +27,7 @@ p_delta_time = 1
 """Time in ms between frames"""
 p_FPS_CAP = 30 
 """maximum frames per second"""
-p_TIME_SCALAR = 1
+p_TIME_SCALAR = 0.8
 """Can be used to scale p_delta_time"""
 p_frame_count = 0
 #--- Time variables/constants end---#
